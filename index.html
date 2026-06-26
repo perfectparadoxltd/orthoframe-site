@@ -3,17 +3,26 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>OrthoFrame — Fotografía clínica ortodóncica, ordenada sola</title>
-<meta name="description" content="Organise your clinic's orthodontic photography on your Mac — AI sorts each photo into ABO record sheets, 100% on-device. One-time, zero telemetry. macOS 14+.">
-<meta property="og:title" content="OrthoFrame — Clinical orthodontic photography, sorted by itself">
-<meta property="og:description" content="Import, AI-classify, crop and export ABO-ready sheets — all on your Mac. Patient photos never leave your computer. One-time purchase, zero telemetry.">
+<title data-i18n="meta.title">OrthoFrame — Fotografía clínica ortodóncica, ordenada sola</title>
+<meta name="description" data-i18n-attr="content:meta.description" content="Organise your clinic's orthodontic photography on your Mac — AI sorts each photo into ABO record sheets, 100% on-device. One-time, zero telemetry. macOS 14+.">
+<link rel="alternate" hreflang="en" href="https://orthoframe.perfectparadox.co.uk/?lang=en">
+<link rel="alternate" hreflang="es" href="https://orthoframe.perfectparadox.co.uk/?lang=es">
+<link rel="alternate" hreflang="fr" href="https://orthoframe.perfectparadox.co.uk/?lang=fr">
+<link rel="alternate" hreflang="de" href="https://orthoframe.perfectparadox.co.uk/?lang=de">
+<link rel="alternate" hreflang="it" href="https://orthoframe.perfectparadox.co.uk/?lang=it">
+<link rel="alternate" hreflang="pt" href="https://orthoframe.perfectparadox.co.uk/?lang=pt">
+<link rel="alternate" hreflang="ja" href="https://orthoframe.perfectparadox.co.uk/?lang=ja">
+<link rel="alternate" hreflang="zh-Hans" href="https://orthoframe.perfectparadox.co.uk/?lang=zh-Hans">
+<link rel="alternate" hreflang="x-default" href="https://orthoframe.perfectparadox.co.uk/">
+<meta property="og:title" data-i18n-attr="content:og.title" content="OrthoFrame — Clinical orthodontic photography, sorted by itself">
+<meta property="og:description" data-i18n-attr="content:og.description" content="Import, AI-classify, crop and export ABO-ready sheets — all on your Mac. Patient photos never leave your computer. One-time purchase, zero telemetry.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://orthoframe.perfectparadox.co.uk/">
 <meta property="og:site_name" content="Perfect Paradox">
 <meta property="og:image" content="https://orthoframe.perfectparadox.co.uk/og.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="OrthoFrame — Clinical orthodontic photography, sorted by itself">
-<meta name="twitter:description" content="AI-classify, crop and export ABO-ready sheets — all on your Mac. Patient photos never leave your computer. One-time, zero telemetry.">
+<meta name="twitter:title" data-i18n-attr="content:og.title" content="OrthoFrame — Clinical orthodontic photography, sorted by itself">
+<meta name="twitter:description" data-i18n-attr="content:og.description" content="AI-classify, crop and export ABO-ready sheets — all on your Mac. Patient photos never leave your computer. One-time, zero telemetry.">
 <meta name="twitter:image" content="https://orthoframe.perfectparadox.co.uk/og.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -161,6 +170,49 @@
   footer p{font-size:13px;color:var(--muted);margin-bottom:6px}
   footer .legal{color:#a7a3b8}
 
+  /* hero · badge de idiomas */
+  .langbadge{display:inline-flex;align-items:center;gap:7px;font-size:13px;color:#fff;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);border-radius:999px;padding:7px 14px;margin-top:18px;backdrop-filter:blur(6px)}
+
+  /* changelog · novedades (tema claro) */
+  .news .news-wrap{max-width:760px;margin:0 auto}
+  .rel{position:relative;margin-top:34px;padding-left:30px;border-left:2px solid var(--hair)}
+  .rel-item{position:relative;padding-bottom:8px}
+  .rel-item::before{content:'';position:absolute;left:-37px;top:5px;width:11px;height:11px;border-radius:50%;background:var(--grad);box-shadow:0 0 0 4px var(--bg)}
+  .rel-head{display:flex;align-items:baseline;gap:13px;flex-wrap:wrap;margin-bottom:12px}
+  .rel-v{font-size:24px;font-weight:600;letter-spacing:-.02em;color:var(--teal-deep)}
+  .rel-date{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+  .rel-tag{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--grad);border-radius:999px;padding:3px 10px;font-weight:500}
+  .rel-list{list-style:none;display:flex;flex-direction:column;gap:9px}
+  .rel-list li{position:relative;padding-left:18px;color:var(--muted);font-size:15px;line-height:1.6}
+  .rel-list li::before{content:'';position:absolute;left:0;top:11px;width:8px;height:1px;background:var(--teal)}
+
+  /* feedback (tema claro) */
+  .fb-wrap{max-width:640px;margin:0 auto;text-align:center}
+  .fb-lead{color:var(--muted);font-size:17px;line-height:1.6;margin:0 auto 32px;max-width:540px}
+  .fb-form{display:flex;flex-direction:column;gap:18px;text-align:left}
+  .fb-types{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+  .fb-chip{font-size:13px;color:var(--muted);background:#fff;border:1px solid var(--hair);border-radius:999px;padding:9px 18px;cursor:pointer;transition:.16s}
+  .fb-chip:hover{color:var(--ink);border-color:var(--teal)}
+  .fb-chip.on{color:#fff;background:var(--grad);border-color:transparent}
+  .fb-field{display:flex;flex-direction:column;gap:8px}
+  .fb-label{font-size:12px;letter-spacing:.04em;color:var(--muted)}
+  .fb-input,.fb-text{font-family:inherit;font-size:15px;color:var(--ink);background:#fff;border:1px solid var(--hair);border-radius:10px;padding:13px 15px;width:100%;transition:.16s}
+  .fb-text{min-height:130px;resize:vertical;line-height:1.55}
+  .fb-input:focus,.fb-text:focus{outline:none;border-color:var(--teal);background:var(--surface)}
+  .fb-input::placeholder,.fb-text::placeholder{color:#a8aca5}
+  .fb-hp{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none}
+  .fb-row{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;margin-top:4px}
+  .fb-note{font-size:12px;color:var(--muted);max-width:280px;line-height:1.5}
+  .fb-msg{font-size:14.5px;line-height:1.5;padding:8px 0;display:none}
+  .fb-msg.ok{color:var(--teal-deep);display:block}
+  .fb-msg.err{color:#c0392b;display:block}
+  .fb .btn[disabled]{opacity:.55;cursor:wait}
+
+  /* selector de idioma en footer */
+  .i18n-picker{display:inline-flex;align-items:center;gap:7px;margin-top:16px}
+  .i18n-globe{font-size:15px;opacity:.7}
+  #langSelect{background:#fff;border:1px solid var(--hair);border-radius:8px;color:var(--muted);font-size:14px;padding:6px 10px;cursor:pointer;font-family:inherit}
+
   @media(max-width:860px){
     .hero h1{font-size:38px}.app{grid-template-columns:1fr}.side{display:none}
     .cards{grid-template-columns:1fr}.split{grid-template-columns:1fr;gap:28px}.split.alt{direction:ltr}
@@ -178,9 +230,6 @@
     <a href="#features" data-i18n="nav.features">Funciones</a>
     <a href="#how" data-i18n="nav.how">Cómo funciona</a>
     <a href="#pricing" data-i18n="nav.pricing">Precios</a>
-    <select id="lang" aria-label="Language" style="background:transparent;border:1px solid var(--hair);border-radius:8px;color:var(--muted);font-size:14px;padding:5px 8px;cursor:pointer">
-      <option value="en">EN</option><option value="es">ES</option><option value="fr">FR</option><option value="de">DE</option><option value="pt">PT</option>
-    </select>
     <a href="https://orthoframe.perfectparadox.co.uk/OrthoFrame.zip" class="btn" data-i18n="nav.download">Descargar</a>
   </div>
 </div></nav>
@@ -194,6 +243,7 @@
     <a href="#pricing" class="btn outline-w" data-i18n="hero.cta2">Ver precios</a>
   </div>
   <p class="fineprint" data-i18n="hero.fine">Sin tarjeta para la prueba · no es un dispositivo médico</p>
+  <div><span class="langbadge"><i class="ti ti-world"></i> <span data-i18n="hero.langs">8 idiomas</span></span></div>
 </div></header>
 
 <div class="shotwrap">
@@ -326,7 +376,7 @@
   <h2 data-i18n="lang.h2">Habla el idioma de tu consulta</h2>
   <p class="lead" data-i18n="lang.p">Toda la interfaz —y esta página— siguen tu Mac y cambian solas entre cinco idiomas. Nada que configurar.</p>
   <div style="display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:center;align-items:center;margin-top:32px;font-size:21px;font-weight:600;color:var(--muted)">
-    <span>English</span><span style="opacity:.4">·</span><span>Español</span><span style="opacity:.4">·</span><span>Français</span><span style="opacity:.4">·</span><span>Deutsch</span><span style="opacity:.4">·</span><span>Português</span>
+    <span>English</span><span style="opacity:.4">·</span><span>Español</span><span style="opacity:.4">·</span><span>Français</span><span style="opacity:.4">·</span><span>Deutsch</span><span style="opacity:.4">·</span><span>Italiano</span><span style="opacity:.4">·</span><span>Português</span><span style="opacity:.4">·</span><span>日本語</span><span style="opacity:.4">·</span><span>简体中文</span>
   </div>
 </div></section>
 
@@ -380,6 +430,44 @@
   </div>
 </div></section>
 
+<section class="news" id="changelog"><div class="wrap"><div class="news-wrap">
+  <p class="kicker" data-i18n="news.label">// Novedades</p>
+  <div class="rel">
+    <div class="rel-item latest">
+      <div class="rel-head"><span class="rel-v">1.0.0</span><span class="rel-date">Jun 2026</span><span class="rel-tag" data-i18n="news.latest">Última</span></div>
+      <ul class="rel-list"><li data-i18n="news.100.1">Lanzamiento inicial. OrthoFrame importa las fotos clínicas de tu consulta y la IA clasifica cada una en su lámina ABO — frontal, perfil, oclusal, lateral — 100% en tu Mac. Recorte inteligente, auto-orientación, antes/después, backup cifrado y exportación a PDF. Pago único, cero telemetría.</li></ul>
+    </div>
+  </div>
+</div></div></section>
+
+<section class="fb" id="feedback"><div class="wrap"><div class="fb-wrap">
+  <p class="kicker" data-i18n="fb.label">// Feedback</p>
+  <h2 data-i18n="fb.title">Ayuda a dar forma<br>a OrthoFrame</h2>
+  <p class="fb-lead" data-i18n="fb.lead">¿Has encontrado un fallo o te gustaría que hiciera una cosa más? Cuéntanoslo — cada mensaje llega directo a quienes desarrollan OrthoFrame. Sin cuenta, sin rastreo.</p>
+  <form class="fb-form" id="fbForm" novalidate>
+    <div class="fb-types" id="fbTypes">
+      <button type="button" class="fb-chip on" data-val="idea" data-i18n="fb.type.idea">Idea</button>
+      <button type="button" class="fb-chip" data-val="bug" data-i18n="fb.type.bug">Fallo</button>
+      <button type="button" class="fb-chip" data-val="praise" data-i18n="fb.type.praise">Elogio</button>
+      <button type="button" class="fb-chip" data-val="other" data-i18n="fb.type.other">Otro</button>
+    </div>
+    <div class="fb-field">
+      <label class="fb-label" for="fbMsg" data-i18n="fb.msg.label">Tu mensaje</label>
+      <textarea class="fb-text" id="fbMsg" name="message" required placeholder="¿Qué tienes en mente?" data-i18n-attr="placeholder:fb.msg.ph"></textarea>
+    </div>
+    <div class="fb-field">
+      <label class="fb-label" for="fbEmail" data-i18n="fb.email.label">Email (opcional — para poder responderte)</label>
+      <input class="fb-input" id="fbEmail" name="email" type="email" autocomplete="email" placeholder="tu@ejemplo.com" data-i18n-attr="placeholder:fb.email.ph">
+    </div>
+    <input class="fb-hp" type="text" id="fbHp" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div class="fb-row">
+      <button type="submit" class="btn" id="fbSend" data-i18n="fb.send">Enviar feedback →</button>
+      <span class="fb-note" data-i18n="fb.note">Lo leemos todo. El feedback honesto da forma a la próxima actualización.</span>
+    </div>
+    <div class="fb-msg" id="fbResult" role="status" aria-live="polite"></div>
+  </form>
+</div></div></section>
+
 <section class="cta"><div class="wrap">
   <h2 data-i18n="cta.h2">Tu archivo fotográfico, por fin bajo control</h2>
   <p data-i18n="cta.p">Pruébalo 14 días con todo desbloqueado. Sin tarjeta, sin nube, sin compromiso.</p>
@@ -396,6 +484,10 @@
     <a href="mailto:info@perfectparadox.co.uk" style="color:inherit;text-decoration:underline">info@perfectparadox.co.uk</a>
   </p>
   <p class="legal" data-i18n="footer.legal">© 2026 Perfect Paradox Ltd (NI739317)</p>
+  <div class="i18n-picker">
+    <label for="langSelect" class="i18n-globe" aria-hidden="true">🌐</label>
+    <select id="langSelect" aria-label="Language / Idioma"></select>
+  </div>
 </div></footer>
 
 <script>
@@ -465,101 +557,120 @@
 })();
 </script>
 
+<!-- i18n: motor multiidioma client-side (NO toca Paddle ni precios). Patrón reutilizable del portfolio. -->
+<script src="translations.js"></script>
 <script>
-(function(){
-  var I18N={
-   en:{"nav.features":"Features","nav.how":"How it works","nav.pricing":"Pricing","nav.download":"Download",
-    "hero.badge":"macOS 14+ · by Perfect Paradox","hero.h1":"Your clinic's photography,<br>sorted by itself.","hero.sub":"Import, classify with AI, crop and export the ABO-ready sheet — all on your Mac. Your photos never leave your computer.","hero.cta1":"Download 14-day trial","hero.cta2":"See pricing","hero.fine":"No card for the trial · not a medical device",
-    "mock.patients":"Patients","trust.1":"Designed by an orthodontist","trust.2":"100% local · no cloud","trust.3":"ABO board-ready sheet","trust.4":"AI classification",
-    "feat.kicker":"Everything in one window","feat.h2":"From SD card to ABO record, friction-free","feat.lead":"A single space to capture, sort, edit, compare and export every case's photography.",
-    "f1.t":"AI classification","f1.d":"Drop the photos and each lands in its slot: frontal, profile, occlusal, lateral. Trained model, on your Mac.","f2.t":"ABO-ready sheet","f2.d":"Export the board-ready record to A4 at 300 dpi or print it in one click. The edge no one else has.","f3.t":"100% on your Mac","f3.d":"No cloud, no servers. Your clinical photos are never uploaded anywhere.","f4.t":"Bulk import","f4.d":"Drag your whole historical archive: one folder per patient and the AI sorts it into stages and slots.","f5.t":"Before / after","f5.d":"Full-screen slider to show the patient their progress chairside.","f6.t":"Smart crop","f6.d":"Frames centred on the face and to each slot's ratio. Always reversible.","f7.t":"Auto-orientation","f7.d":"Occlusals flip themselves to the correct position on import.","f8.t":"Anonymisation","f8.d":"Eye bar on export for case reports and teaching; your archive keeps the original.","f9.t":"Groups & search","f9.d":"Folders by treatment, instant search and each case's completeness at a glance.",
-    "chair.kicker":"Chairside","chair.h3":"Show the change, sell the treatment","chair.p":"A full-screen before/after comparator with a slider that reveals the patient's real progress. No menus, no distractions — ready for the chair.","chair.li1":"Compare any pair of stages (T0 → T2)","chair.li2":"Switch view with the arrows","chair.li3":"Clean screen, made for the patient","ba.before":"Before · T0","ba.after":"After · T2",
-    "exp.kicker":"Export","exp.h3":"The full record, in one PDF","exp.p":"ABO board-ready sheet, patient report with every stage and your brand, branded before/after, presentation slides — A4 at 300 dpi, ready to print or send.","exp.li1":"ABO board-ready sheet (JPEG / print)","exp.li2":"Patient report PDF with your logo","exp.li3":"Optional anonymisation on export",
-    "how.kicker":"How it works","how.h2":"Three steps, two minutes","how.lead":"No learning curve. What used to take half an afternoon is now drag and drop.","s1.t":"Drag the photos","s1.d":"Drop a folder or the camera card. The AI recognises each shot.","s2.t":"Review and crop","s2.d":"Each photo lands in its slot, already cropped and oriented. Tweak whatever you want.","s3.t":"Export or print","s3.d":"ABO sheet, PDF report or branded before/after, in one click.",
-    "price.kicker":"Buy once, two tiers","price.h2":"Honest pricing, no surprises","price.lead":"Buy once, it's yours. The app lives on your Mac — no subscription, no hidden costs, no data in the cloud. One year of updates included.","price.year":"· one-time","tier.normal":"Normal","tier.pro":"Pro","tier.pill":"Most complete","tier.cta":"Start trial","tier.buy":"Buy →",
-    "n1":"AI classification + smart crop","n2":"12 slots · 3 sections · T0–T∞ stages","n3":"Export and print the ABO sheet","n4":"Anonymise faces on export","n5":"Groups, search and notes",
-    "p0":"Everything in Normal, plus:","p1":"Bulk folder import","p2":"Chairside before/after comparator","p3":"PDF report · batch · slides · branding","p4":"Encrypted backup · annotations · colours","trial.note":"14-day trial fully unlocked · one year of updates included · upgrade Normal → Pro by paying the difference",
-    "faq.kicker":"Questions","faq.h2":"What people usually ask","q1.q":"Are my photos uploaded to any server?","q1.a":"No. OrthoFrame is 100% local: everything is processed and stored on your Mac. AI classification runs on your own machine.","q2.q":"Is it a medical device?","q2.a":"No. It's a clinical photography organisation tool; it makes no diagnosis or measurements.","q3.q":"Can I try it before paying?","q3.a":"Yes, 14 days with every feature unlocked and no card. When it expires it drops to the Normal tier.","q4.q":"What if I have thousands of old photos?","q4.a":"Bulk import (Pro) creates one patient per folder and sorts each photo into its slot automatically.",
-    "lang.kicker":"In your language","lang.h2":"Speaks your clinic's language","lang.p":"The whole interface — and this page — follow your Mac and switch automatically across five languages. Nothing to set up.",
-    "q5.q":"Is it a subscription?","q5.a":"No — it's a one-time purchase. Normal $99 or Pro $179, yours forever, with one year of updates included. No recurring fees. The 14-day trial unlocks everything; after it you keep the Normal tier unless you buy.","q6.q":"Does it work without internet?","q6.a":"Completely. The licence is validated offline on your Mac and the app makes no network connections in normal use — automatic update checks are off by default. Your photos never need internet.","q7.q":"Can I move my library to another Mac?","q7.a":"Yes. Your whole library lives in a folder on your Mac — copy it across, or use the encrypted backup (Pro) and restore it on the new machine.","q8.q":"What languages does it support?","q8.a":"English, Spanish, French, German and Portuguese — in the app and on exports. It follows your Mac automatically, with no setup.","q9.q":"Can I get a refund?","q9.a":"Yes — a 14-day money-back guarantee, no questions asked. Payments are handled by Paddle; just reply to your receipt.",
-    "cta.h2":"Your photo archive, finally under control","cta.p":"Try it 14 days fully unlocked. No card, no cloud, no commitment.","cta.btn":"Download OrthoFrame","footer.note":"Not a medical device · for clinical photo organisation only · your photos never leave your Mac.","footer.privacy":"Privacy","footer.terms":"Terms","footer.refund":"Refunds","footer.eula":"EULA","footer.legal":"© 2026 Perfect Paradox Ltd (NI739317)"},
-   es:{"nav.features":"Funciones","nav.how":"Cómo funciona","nav.pricing":"Precios","nav.download":"Descargar",
-    "hero.badge":"macOS 14+ · por Perfect Paradox","hero.h1":"La fotografía clínica de tu<br>consulta, ordenada sola.","hero.sub":"Importa, clasifica con IA, recorta y exporta la lámina ABO lista para certificación — todo en tu Mac. Las fotos nunca salen de tu ordenador.","hero.cta1":"Descargar prueba de 14 días","hero.cta2":"Ver precios","hero.fine":"Sin tarjeta para la prueba · no es un dispositivo médico",
-    "mock.patients":"Pacientes","trust.1":"Diseñada por un ortodoncista","trust.2":"100% local · sin nube","trust.3":"Lámina ABO board-ready","trust.4":"Clasificación con IA",
-    "feat.kicker":"Todo en una ventana","feat.h2":"De la tarjeta SD al registro ABO, sin fricción","feat.lead":"Un único espacio para capturar, ordenar, editar, comparar y exportar la fotografía de cada caso.",
-    "f1.t":"Clasificación con IA","f1.d":"Suelta las fotos y cada una cae en su slot: frontal, perfil, oclusal, lateral. Modelo entrenado, en tu Mac.","f2.t":"Lámina ABO lista","f2.d":"Exporta el registro board-ready a A4 300 dpi o imprímelo en un clic. El diferenciador que el resto no tiene.","f3.t":"100% en tu Mac","f3.d":"Sin nube ni servidores. Tus fotos clínicas nunca se suben a ningún sitio.","f4.t":"Importación masiva","f4.d":"Arrastra tu archivo histórico entero: una carpeta por paciente y la IA lo reparte por etapas y slots.","f5.t":"Antes / después","f5.d":"Deslizador a pantalla completa para enseñar el progreso al paciente en la silla.","f6.t":"Recorte inteligente","f6.d":"Encuadra centrando en la cara y al ratio de cada slot. Siempre reversible.","f7.t":"Auto-orientación","f7.d":"Las oclusales se voltean solas a la posición correcta al importarlas.","f8.t":"Anonimización","f8.d":"Barra de ojos al exportar para casos y docencia; tu archivo conserva el original.","f9.t":"Grupos y búsqueda","f9.d":"Carpetas por tratamiento, búsqueda instantánea y completitud de cada caso de un vistazo.",
-    "chair.kicker":"Chairside","chair.h3":"Enseña el cambio, vende el tratamiento","chair.p":"Un comparador antes/después a pantalla completa, con un deslizador que revela el progreso real del paciente. Sin menús, sin distracciones — listo para la silla.","chair.li1":"Compara cualquier par de etapas (T0 → T2)","chair.li2":"Cambia de vista con las flechas","chair.li3":"Pantalla limpia, pensada para el paciente","ba.before":"Antes · T0","ba.after":"Después · T2",
-    "exp.kicker":"Exportar","exp.h3":"El registro completo, en un PDF","exp.p":"Lámina ABO board-ready, informe del paciente con todas las etapas y tu marca, antes/después con branding, slides para presentaciones — A4 a 300 dpi, listo para imprimir o enviar.","exp.li1":"Lámina ABO board-ready (JPEG / impresión)","exp.li2":"Informe del paciente en PDF con tu logo","exp.li3":"Anonimizado opcional al exportar",
-    "how.kicker":"Cómo funciona","how.h2":"Tres pasos, dos minutos","how.lead":"Sin curva de aprendizaje. Lo que antes te llevaba media tarde, ahora es arrastrar y soltar.","s1.t":"Arrastra las fotos","s1.d":"Suelta una carpeta o la tarjeta de la cámara. La IA reconoce cada toma.","s2.t":"Revisa y recorta","s2.d":"Cada foto cae en su slot, ya recortada y orientada. Ajusta lo que quieras.","s3.t":"Exporta o imprime","s3.d":"Lámina ABO, informe PDF o antes/después con tu marca, en un clic.",
-    "price.kicker":"Pago único, dos niveles","price.h2":"Precio honesto, sin sorpresas","price.lead":"Cómprala una vez y es tuya. La app vive en tu Mac — sin suscripción, sin costes ocultos ni datos en la nube. Incluye un año de actualizaciones.","price.year":"· pago único","tier.normal":"Normal","tier.pro":"Pro","tier.pill":"Más completo","tier.cta":"Empezar prueba","tier.buy":"Comprar →",
-    "n1":"Clasificación IA + recorte inteligente","n2":"12 slots · 3 secciones · etapas T0–T∞","n3":"Exportar e imprimir la lámina ABO","n4":"Anonimizar caras al exportar","n5":"Grupos, búsqueda y notas",
-    "p0":"Todo lo de Normal, y además:","p1":"Importación masiva de carpetas","p2":"Comparador chairside antes/después","p3":"Informe PDF · batch · slides · branding","p4":"Backup cifrado · anotaciones · colores","trial.note":"14 días de prueba con todo desbloqueado · un año de actualizaciones incluidas · upgrade Normal → Pro pagando la diferencia",
-    "faq.kicker":"Preguntas","faq.h2":"Lo que suelen preguntar","q1.q":"¿Mis fotos se suben a algún servidor?","q1.a":"No. OrthoFrame es 100% local: todo se procesa y guarda en tu Mac. La clasificación con IA corre en tu propio equipo.","q2.q":"¿Es un dispositivo médico?","q2.a":"No. Es una herramienta de organización de fotografía clínica; no realiza diagnóstico ni mediciones.","q3.q":"¿Puedo probarla antes de pagar?","q3.a":"Sí, 14 días con todas las funciones desbloqueadas y sin tarjeta. Al expirar pasa al nivel Normal.","q4.q":"¿Y si tengo miles de fotos antiguas?","q4.a":"La importación masiva (Pro) crea un paciente por carpeta y reparte cada foto en su slot automáticamente.",
-    "lang.kicker":"En tu idioma","lang.h2":"Habla el idioma de tu consulta","lang.p":"Toda la interfaz —y esta página— siguen tu Mac y cambian solas entre cinco idiomas. Nada que configurar.",
-    "q5.q":"¿Es una suscripción?","q5.a":"No — es de pago único. Normal $99 o Pro $179, tuya para siempre, con un año de actualizaciones incluidas. Sin cuotas recurrentes. La prueba de 14 días lo desbloquea todo; al terminar te quedas con el nivel Normal salvo que compres.","q6.q":"¿Funciona sin internet?","q6.a":"Por completo. La licencia se valida offline en tu Mac y la app no hace conexiones de red en uso normal — las comprobaciones de actualización están desactivadas por defecto. Tus fotos nunca necesitan internet.","q7.q":"¿Puedo mover mi biblioteca a otro Mac?","q7.a":"Sí. Toda tu biblioteca vive en una carpeta de tu Mac: cópiala, o usa el backup cifrado (Pro) y restáuralo en el equipo nuevo.","q8.q":"¿Qué idiomas admite?","q8.a":"Inglés, español, francés, alemán y portugués — en la app y en los exports. Sigue tu Mac automáticamente, sin configurar nada.","q9.q":"¿Puedo pedir un reembolso?","q9.a":"Sí, garantía de devolución de 14 días sin preguntas. Los pagos los gestiona Paddle; basta con responder a tu recibo.",
-    "cta.h2":"Tu archivo fotográfico, por fin bajo control","cta.p":"Pruébalo 14 días con todo desbloqueado. Sin tarjeta, sin nube, sin compromiso.","cta.btn":"Descargar OrthoFrame","footer.note":"No es un dispositivo médico · solo para organización de fotografía clínica · tus fotos nunca salen de tu Mac.","footer.privacy":"Privacidad","footer.terms":"Términos","footer.refund":"Reembolsos","footer.eula":"EULA","footer.legal":"© 2026 Perfect Paradox Ltd (NI739317)"},
-   fr:{"nav.features":"Fonctions","nav.how":"Comment ça marche","nav.pricing":"Tarifs","nav.download":"Télécharger",
-    "hero.badge":"macOS 14+ · par Perfect Paradox","hero.h1":"La photographie clinique de votre<br>cabinet, classée toute seule.","hero.sub":"Importez, classez par IA, recadrez et exportez la planche ABO prête à certifier — tout sur votre Mac. Vos photos ne quittent jamais votre ordinateur.","hero.cta1":"Télécharger l'essai 14 jours","hero.cta2":"Voir les tarifs","hero.fine":"Sans carte pour l'essai · n'est pas un dispositif médical",
-    "mock.patients":"Patients","trust.1":"Conçue par un orthodontiste","trust.2":"100% local · sans cloud","trust.3":"Planche ABO prête","trust.4":"Classement par IA",
-    "feat.kicker":"Tout dans une seule fenêtre","feat.h2":"De la carte SD au dossier ABO, sans friction","feat.lead":"Un seul espace pour capturer, trier, éditer, comparer et exporter la photographie de chaque cas.",
-    "f1.t":"Classement par IA","f1.d":"Déposez les photos et chacune va dans son emplacement : face, profil, occlusal, latéral. Modèle entraîné, sur votre Mac.","f2.t":"Planche ABO prête","f2.d":"Exportez le dossier prêt pour le board en A4 à 300 dpi ou imprimez-le en un clic. L'avantage que les autres n'ont pas.","f3.t":"100% sur votre Mac","f3.d":"Sans cloud ni serveurs. Vos photos cliniques ne sont jamais téléversées.","f4.t":"Import en masse","f4.d":"Glissez toute votre archive : un dossier par patient et l'IA la répartit par étapes et emplacements.","f5.t":"Avant / après","f5.d":"Curseur plein écran pour montrer au patient sa progression au fauteuil.","f6.t":"Recadrage intelligent","f6.d":"Cadré sur le visage et au ratio de chaque emplacement. Toujours réversible.","f7.t":"Auto-orientation","f7.d":"Les occlusales se retournent seules à la bonne position à l'import.","f8.t":"Anonymisation","f8.d":"Bandeau sur les yeux à l'export pour les cas et l'enseignement ; votre archive garde l'original.","f9.t":"Groupes et recherche","f9.d":"Dossiers par traitement, recherche instantanée et complétude de chaque cas d'un coup d'œil.",
-    "chair.kicker":"Au fauteuil","chair.h3":"Montrez le changement, vendez le traitement","chair.p":"Un comparateur avant/après plein écran, avec un curseur qui révèle la progression réelle du patient. Sans menus, sans distractions — prêt pour le fauteuil.","chair.li1":"Comparez n'importe quelle paire d'étapes (T0 → T2)","chair.li2":"Changez de vue avec les flèches","chair.li3":"Écran épuré, pensé pour le patient","ba.before":"Avant · T0","ba.after":"Après · T2",
-    "exp.kicker":"Exporter","exp.h3":"Le dossier complet, en un PDF","exp.p":"Planche ABO prête, rapport patient avec toutes les étapes et votre marque, avant/après brandé, diapositives — A4 à 300 dpi, prêt à imprimer ou envoyer.","exp.li1":"Planche ABO prête (JPEG / impression)","exp.li2":"Rapport patient PDF avec votre logo","exp.li3":"Anonymisation optionnelle à l'export",
-    "how.kicker":"Comment ça marche","how.h2":"Trois étapes, deux minutes","how.lead":"Aucune courbe d'apprentissage. Ce qui prenait une demi-après-midi devient un glisser-déposer.","s1.t":"Glissez les photos","s1.d":"Déposez un dossier ou la carte de l'appareil. L'IA reconnaît chaque cliché.","s2.t":"Vérifiez et recadrez","s2.d":"Chaque photo va dans son emplacement, déjà recadrée et orientée. Ajustez à votre guise.","s3.t":"Exportez ou imprimez","s3.d":"Planche ABO, rapport PDF ou avant/après brandé, en un clic.",
-    "price.kicker":"Achat unique, deux niveaux","price.h2":"Un tarif honnête, sans surprises","price.lead":"Achetez-la une fois, elle est à vous. L'app vit sur votre Mac — sans abonnement, sans coûts cachés ni données dans le cloud. Un an de mises à jour inclus.","price.year":"· paiement unique","tier.normal":"Normal","tier.pro":"Pro","tier.pill":"Le plus complet","tier.cta":"Démarrer l'essai","tier.buy":"Acheter →",
-    "n1":"Classement IA + recadrage intelligent","n2":"12 emplacements · 3 sections · étapes T0–T∞","n3":"Exporter et imprimer la planche ABO","n4":"Anonymiser les visages à l'export","n5":"Groupes, recherche et notes",
-    "p0":"Tout le Normal, et en plus :","p1":"Import en masse de dossiers","p2":"Comparateur avant/après au fauteuil","p3":"Rapport PDF · batch · diapositives · branding","p4":"Sauvegarde chiffrée · annotations · couleurs","trial.note":"Essai 14 jours entièrement débloqué · un an de mises à jour inclus · passez de Normal à Pro en payant la différence",
-    "faq.kicker":"Questions","faq.h2":"Ce qu'on demande souvent","q1.q":"Mes photos sont-elles envoyées sur un serveur ?","q1.a":"Non. OrthoFrame est 100% local : tout est traité et stocké sur votre Mac. Le classement par IA tourne sur votre propre machine.","q2.q":"Est-ce un dispositif médical ?","q2.a":"Non. C'est un outil d'organisation de photographie clinique ; il ne pose aucun diagnostic ni mesure.","q3.q":"Puis-je l'essayer avant de payer ?","q3.a":"Oui, 14 jours avec toutes les fonctions débloquées et sans carte. À l'expiration, il passe au niveau Normal.","q4.q":"Et si j'ai des milliers d'anciennes photos ?","q4.a":"L'import en masse (Pro) crée un patient par dossier et range chaque photo dans son emplacement automatiquement.",
-    "lang.kicker":"Dans votre langue","lang.h2":"Parle la langue de votre cabinet","lang.p":"Toute l'interface — et cette page — suivent votre Mac et basculent automatiquement entre cinq langues. Rien à configurer.",
-    "q5.q":"Est-ce un abonnement ?","q5.a":"Non — c'est un achat unique. Normal 99 $ ou Pro 179 $, à vous pour toujours, avec un an de mises à jour inclus. Sans frais récurrents. L'essai de 14 jours débloque tout ; ensuite vous gardez le niveau Normal sauf si vous achetez.","q6.q":"Fonctionne-t-elle sans internet ?","q6.a":"Totalement. La licence est validée hors ligne sur votre Mac et l'app ne fait aucune connexion réseau en usage normal — la vérification des mises à jour est désactivée par défaut. Vos photos n'ont jamais besoin d'internet.","q7.q":"Puis-je déplacer ma bibliothèque vers un autre Mac ?","q7.a":"Oui. Toute votre bibliothèque réside dans un dossier sur votre Mac — copiez-le, ou utilisez la sauvegarde chiffrée (Pro) et restaurez-la sur la nouvelle machine.","q8.q":"Quelles langues sont prises en charge ?","q8.a":"Anglais, espagnol, français, allemand et portugais — dans l'app et sur les exports. Elle suit votre Mac automatiquement, sans configuration.","q9.q":"Puis-je être remboursé ?","q9.a":"Oui — garantie satisfait ou remboursé de 14 jours, sans question. Les paiements sont gérés par Paddle ; répondez simplement à votre reçu.",
-    "cta.h2":"Votre archive photo, enfin sous contrôle","cta.p":"Essayez-le 14 jours entièrement débloqué. Sans carte, sans cloud, sans engagement.","cta.btn":"Télécharger OrthoFrame","footer.note":"N'est pas un dispositif médical · uniquement pour l'organisation de photographie clinique · vos photos ne quittent jamais votre Mac.","footer.privacy":"Confidentialité","footer.terms":"Conditions","footer.refund":"Remboursements","footer.eula":"EULA","footer.legal":"© 2026 Perfect Paradox Ltd (NI739317)"},
-   de:{"nav.features":"Funktionen","nav.how":"So funktioniert's","nav.pricing":"Preise","nav.download":"Download",
-    "hero.badge":"macOS 14+ · von Perfect Paradox","hero.h1":"Die klinische Fotografie Ihrer<br>Praxis, von selbst geordnet.","hero.sub":"Importieren, per KI klassifizieren, zuschneiden und die ABO-fertige Tafel exportieren — alles auf Ihrem Mac. Ihre Fotos verlassen nie Ihren Computer.","hero.cta1":"14-Tage-Test laden","hero.cta2":"Preise ansehen","hero.fine":"Keine Karte für den Test · kein Medizinprodukt",
-    "mock.patients":"Patienten","trust.1":"Von einem Kieferorthopäden entworfen","trust.2":"100% lokal · keine Cloud","trust.3":"ABO-fertige Tafel","trust.4":"KI-Klassifizierung",
-    "feat.kicker":"Alles in einem Fenster","feat.h2":"Von der SD-Karte zum ABO-Datensatz, ohne Reibung","feat.lead":"Ein einziger Ort, um die Fotografie jedes Falls aufzunehmen, zu sortieren, zu bearbeiten, zu vergleichen und zu exportieren.",
-    "f1.t":"KI-Klassifizierung","f1.d":"Fotos ablegen und jedes landet in seinem Slot: frontal, Profil, okklusal, lateral. Trainiertes Modell, auf Ihrem Mac.","f2.t":"ABO-fertige Tafel","f2.d":"Exportieren Sie den board-fertigen Datensatz als A4 mit 300 dpi oder drucken Sie ihn mit einem Klick. Der Vorsprung, den kein anderer hat.","f3.t":"100% auf Ihrem Mac","f3.d":"Keine Cloud, keine Server. Ihre klinischen Fotos werden nirgends hochgeladen.","f4.t":"Massenimport","f4.d":"Ziehen Sie Ihr gesamtes Archiv hinein: ein Ordner pro Patient und die KI sortiert es nach Phasen und Slots.","f5.t":"Vorher / nachher","f5.d":"Vollbild-Schieberegler, um dem Patienten am Stuhl seinen Fortschritt zu zeigen.","f6.t":"Intelligenter Zuschnitt","f6.d":"Auf das Gesicht und das Seitenverhältnis jedes Slots zentriert. Immer umkehrbar.","f7.t":"Auto-Ausrichtung","f7.d":"Okklusalaufnahmen drehen sich beim Import von selbst in die richtige Position.","f8.t":"Anonymisierung","f8.d":"Augenbalken beim Export für Fälle und Lehre; Ihr Archiv behält das Original.","f9.t":"Gruppen & Suche","f9.d":"Ordner nach Behandlung, sofortige Suche und die Vollständigkeit jedes Falls auf einen Blick.",
-    "chair.kicker":"Am Stuhl","chair.h3":"Zeigen Sie die Veränderung, verkaufen Sie die Behandlung","chair.p":"Ein Vollbild-Vorher/Nachher-Vergleich mit einem Schieberegler, der den echten Fortschritt des Patienten zeigt. Keine Menüs, keine Ablenkung — bereit für den Stuhl.","chair.li1":"Vergleichen Sie jedes Phasenpaar (T0 → T2)","chair.li2":"Ansicht mit den Pfeilen wechseln","chair.li3":"Klarer Bildschirm, für den Patienten gemacht","ba.before":"Vorher · T0","ba.after":"Nachher · T2",
-    "exp.kicker":"Exportieren","exp.h3":"Der komplette Datensatz, in einem PDF","exp.p":"ABO-fertige Tafel, Patientenbericht mit allen Phasen und Ihrer Marke, gebrandetes Vorher/Nachher, Präsentationsfolien — A4 mit 300 dpi, bereit zum Drucken oder Senden.","exp.li1":"ABO-fertige Tafel (JPEG / Druck)","exp.li2":"Patientenbericht-PDF mit Ihrem Logo","exp.li3":"Optionale Anonymisierung beim Export",
-    "how.kicker":"So funktioniert's","how.h2":"Drei Schritte, zwei Minuten","how.lead":"Keine Lernkurve. Was früher einen halben Nachmittag dauerte, ist jetzt Ziehen und Ablegen.","s1.t":"Fotos hineinziehen","s1.d":"Ordner oder Kamerakarte ablegen. Die KI erkennt jede Aufnahme.","s2.t":"Prüfen und zuschneiden","s2.d":"Jedes Foto landet in seinem Slot, bereits zugeschnitten und ausgerichtet. Passen Sie an, was Sie wollen.","s3.t":"Exportieren oder drucken","s3.d":"ABO-Tafel, PDF-Bericht oder gebrandetes Vorher/Nachher, mit einem Klick.",
-    "price.kicker":"Einmalkauf, zwei Stufen","price.h2":"Ehrlicher Preis, keine Überraschungen","price.lead":"Einmal kaufen, für immer Ihres. Die App lebt auf Ihrem Mac — kein Abo, keine versteckten Kosten, keine Daten in der Cloud. Ein Jahr Updates inklusive.","price.year":"· einmalig","tier.normal":"Normal","tier.pro":"Pro","tier.pill":"Am vollständigsten","tier.cta":"Test starten","tier.buy":"Kaufen →",
-    "n1":"KI-Klassifizierung + intelligenter Zuschnitt","n2":"12 Slots · 3 Bereiche · Phasen T0–T∞","n3":"ABO-Tafel exportieren und drucken","n4":"Gesichter beim Export anonymisieren","n5":"Gruppen, Suche und Notizen",
-    "p0":"Alles aus Normal, plus:","p1":"Massenimport von Ordnern","p2":"Vorher/Nachher-Vergleich am Stuhl","p3":"PDF-Bericht · Batch · Folien · Branding","p4":"Verschlüsseltes Backup · Anmerkungen · Farben","trial.note":"14-Tage-Test voll freigeschaltet · ein Jahr Updates inklusive · von Normal auf Pro durch Zahlung der Differenz",
-    "faq.kicker":"Fragen","faq.h2":"Was häufig gefragt wird","q1.q":"Werden meine Fotos auf einen Server geladen?","q1.a":"Nein. OrthoFrame ist 100% lokal: Alles wird auf Ihrem Mac verarbeitet und gespeichert. Die KI-Klassifizierung läuft auf Ihrem eigenen Gerät.","q2.q":"Ist es ein Medizinprodukt?","q2.a":"Nein. Es ist ein Werkzeug zur Organisation klinischer Fotografie; es stellt keine Diagnose und nimmt keine Messungen vor.","q3.q":"Kann ich es vor dem Kauf testen?","q3.a":"Ja, 14 Tage mit allen Funktionen freigeschaltet und ohne Karte. Nach Ablauf wechselt es auf die Stufe Normal.","q4.q":"Was, wenn ich Tausende alte Fotos habe?","q4.a":"Der Massenimport (Pro) erstellt einen Patienten pro Ordner und sortiert jedes Foto automatisch in seinen Slot.",
-    "lang.kicker":"In Ihrer Sprache","lang.h2":"Spricht die Sprache Ihrer Praxis","lang.p":"Die gesamte Oberfläche — und diese Seite — folgen Ihrem Mac und wechseln automatisch zwischen fünf Sprachen. Nichts einzurichten.",
-    "q5.q":"Ist es ein Abo?","q5.a":"Nein — es ist ein Einmalkauf. Normal 99 $ oder Pro 179 $, für immer Ihres, mit einem Jahr Updates. Keine wiederkehrenden Gebühren. Der 14-Tage-Test schaltet alles frei; danach behalten Sie die Stufe Normal, sofern Sie nicht kaufen.","q6.q":"Funktioniert es ohne Internet?","q6.a":"Vollständig. Die Lizenz wird offline auf Ihrem Mac geprüft und die App stellt im Normalbetrieb keine Netzwerkverbindungen her — automatische Update-Prüfungen sind standardmäßig aus. Ihre Fotos brauchen nie Internet.","q7.q":"Kann ich meine Bibliothek auf einen anderen Mac übertragen?","q7.a":"Ja. Ihre gesamte Bibliothek liegt in einem Ordner auf Ihrem Mac — kopieren Sie ihn, oder nutzen Sie das verschlüsselte Backup (Pro) und stellen Sie es auf dem neuen Gerät wieder her.","q8.q":"Welche Sprachen werden unterstützt?","q8.a":"Englisch, Spanisch, Französisch, Deutsch und Portugiesisch — in der App und bei Exporten. Sie folgt automatisch Ihrem Mac, ohne Einrichtung.","q9.q":"Kann ich eine Rückerstattung erhalten?","q9.a":"Ja — 14 Tage Geld-zurück-Garantie, ohne Wenn und Aber. Zahlungen werden von Paddle abgewickelt; antworten Sie einfach auf Ihre Quittung.",
-    "cta.h2":"Ihr Fotoarchiv, endlich unter Kontrolle","cta.p":"Testen Sie es 14 Tage voll freigeschaltet. Keine Karte, keine Cloud, keine Bindung.","cta.btn":"OrthoFrame laden","footer.note":"Kein Medizinprodukt · nur zur Organisation klinischer Fotografie · Ihre Fotos verlassen nie Ihren Mac.","footer.privacy":"Datenschutz","footer.terms":"AGB","footer.refund":"Rückerstattungen","footer.eula":"EULA","footer.legal":"© 2026 Perfect Paradox Ltd (NI739317)"},
-   pt:{"nav.features":"Funções","nav.how":"Como funciona","nav.pricing":"Preços","nav.download":"Descarregar",
-    "hero.badge":"macOS 14+ · pela Perfect Paradox","hero.h1":"A fotografia clínica da sua<br>consulta, organizada sozinha.","hero.sub":"Importe, classifique com IA, recorte e exporte a folha ABO pronta para certificação — tudo no seu Mac. As fotos nunca saem do seu computador.","hero.cta1":"Descarregar teste de 14 dias","hero.cta2":"Ver preços","hero.fine":"Sem cartão para o teste · não é um dispositivo médico",
-    "mock.patients":"Pacientes","trust.1":"Desenhada por um ortodontista","trust.2":"100% local · sem nuvem","trust.3":"Folha ABO pronta","trust.4":"Classificação com IA",
-    "feat.kicker":"Tudo numa só janela","feat.h2":"Do cartão SD ao registo ABO, sem fricção","feat.lead":"Um único espaço para capturar, organizar, editar, comparar e exportar a fotografia de cada caso.",
-    "f1.t":"Classificação com IA","f1.d":"Solte as fotos e cada uma vai para o seu lugar: frontal, perfil, oclusal, lateral. Modelo treinado, no seu Mac.","f2.t":"Folha ABO pronta","f2.d":"Exporte o registo pronto para o board em A4 a 300 dpi ou imprima num clique. A vantagem que mais ninguém tem.","f3.t":"100% no seu Mac","f3.d":"Sem nuvem nem servidores. As suas fotos clínicas nunca são enviadas para lado nenhum.","f4.t":"Importação em massa","f4.d":"Arraste todo o seu arquivo histórico: uma pasta por paciente e a IA distribui por etapas e lugares.","f5.t":"Antes / depois","f5.d":"Deslizador em ecrã inteiro para mostrar ao paciente a sua evolução na cadeira.","f6.t":"Recorte inteligente","f6.d":"Enquadra centrando no rosto e no rácio de cada lugar. Sempre reversível.","f7.t":"Auto-orientação","f7.d":"As oclusais viram-se sozinhas para a posição correta ao importar.","f8.t":"Anonimização","f8.d":"Barra nos olhos ao exportar para casos e ensino; o seu arquivo mantém o original.","f9.t":"Grupos e pesquisa","f9.d":"Pastas por tratamento, pesquisa instantânea e o estado de cada caso num relance.",
-    "chair.kicker":"Na cadeira","chair.h3":"Mostre a mudança, venda o tratamento","chair.p":"Um comparador antes/depois em ecrã inteiro, com um deslizador que revela a evolução real do paciente. Sem menus, sem distrações — pronto para a cadeira.","chair.li1":"Compare qualquer par de etapas (T0 → T2)","chair.li2":"Mude de vista com as setas","chair.li3":"Ecrã limpo, pensado para o paciente","ba.before":"Antes · T0","ba.after":"Depois · T2",
-    "exp.kicker":"Exportar","exp.h3":"O registo completo, num PDF","exp.p":"Folha ABO pronta, relatório do paciente com todas as etapas e a sua marca, antes/depois com branding, slides para apresentações — A4 a 300 dpi, pronto a imprimir ou enviar.","exp.li1":"Folha ABO pronta (JPEG / impressão)","exp.li2":"Relatório do paciente em PDF com o seu logótipo","exp.li3":"Anonimização opcional ao exportar",
-    "how.kicker":"Como funciona","how.h2":"Três passos, dois minutos","how.lead":"Sem curva de aprendizagem. O que antes levava meia tarde, agora é arrastar e largar.","s1.t":"Arraste as fotos","s1.d":"Solte uma pasta ou o cartão da câmara. A IA reconhece cada foto.","s2.t":"Reveja e recorte","s2.d":"Cada foto vai para o seu lugar, já recortada e orientada. Ajuste o que quiser.","s3.t":"Exporte ou imprima","s3.d":"Folha ABO, relatório PDF ou antes/depois com a sua marca, num clique.",
-    "price.kicker":"Pagamento único, dois níveis","price.h2":"Preço honesto, sem surpresas","price.lead":"Compre uma vez e é sua. A app vive no seu Mac — sem subscrição, sem custos ocultos nem dados na nuvem. Inclui um ano de atualizações.","price.year":"· pagamento único","tier.normal":"Normal","tier.pro":"Pro","tier.pill":"Mais completo","tier.cta":"Começar teste","tier.buy":"Comprar →",
-    "n1":"Classificação IA + recorte inteligente","n2":"12 lugares · 3 secções · etapas T0–T∞","n3":"Exportar e imprimir a folha ABO","n4":"Anonimizar rostos ao exportar","n5":"Grupos, pesquisa e notas",
-    "p0":"Tudo do Normal, e ainda:","p1":"Importação em massa de pastas","p2":"Comparador antes/depois na cadeira","p3":"Relatório PDF · batch · slides · branding","p4":"Backup cifrado · anotações · cores","trial.note":"Teste de 14 dias totalmente desbloqueado · um ano de atualizações incluído · passe de Normal a Pro pagando a diferença",
-    "faq.kicker":"Perguntas","faq.h2":"O que costumam perguntar","q1.q":"As minhas fotos são enviadas para algum servidor?","q1.a":"Não. O OrthoFrame é 100% local: tudo é processado e guardado no seu Mac. A classificação com IA corre no seu próprio equipamento.","q2.q":"É um dispositivo médico?","q2.a":"Não. É uma ferramenta de organização de fotografia clínica; não faz diagnóstico nem medições.","q3.q":"Posso experimentar antes de pagar?","q3.a":"Sim, 14 dias com todas as funções desbloqueadas e sem cartão. Ao expirar passa ao nível Normal.","q4.q":"E se tiver milhares de fotos antigas?","q4.a":"A importação em massa (Pro) cria um paciente por pasta e coloca cada foto no seu lugar automaticamente.",
-    "lang.kicker":"No seu idioma","lang.h2":"Fala a língua da sua consulta","lang.p":"Toda a interface — e esta página — seguem o seu Mac e mudam sozinhas entre cinco idiomas. Nada para configurar.",
-    "q5.q":"É uma subscrição?","q5.a":"Não — é de pagamento único. Normal 99 $ ou Pro 179 $, seu para sempre, com um ano de atualizações incluído. Sem mensalidades. O teste de 14 dias desbloqueia tudo; depois fica com o nível Normal a menos que compre.","q6.q":"Funciona sem internet?","q6.a":"Completamente. A licença é validada offline no seu Mac e a app não faz ligações de rede em uso normal — a verificação de atualizações está desativada por predefinição. As suas fotos nunca precisam de internet.","q7.q":"Posso mover a minha biblioteca para outro Mac?","q7.a":"Sim. Toda a sua biblioteca vive numa pasta no seu Mac — copie-a, ou use o backup cifrado (Pro) e restaure-o na máquina nova.","q8.q":"Que idiomas suporta?","q8.a":"Inglês, espanhol, francês, alemão e português — na app e nas exportações. Segue o seu Mac automaticamente, sem configurar nada.","q9.q":"Posso pedir reembolso?","q9.a":"Sim — garantia de devolução de 14 dias, sem perguntas. Os pagamentos são geridos pela Paddle; basta responder ao seu recibo.",
-    "cta.h2":"O seu arquivo de fotos, finalmente sob controlo","cta.p":"Experimente 14 dias totalmente desbloqueado. Sem cartão, sem nuvem, sem compromisso.","cta.btn":"Descarregar OrthoFrame","footer.note":"Não é um dispositivo médico · apenas para organização de fotografia clínica · as suas fotos nunca saem do seu Mac.","footer.privacy":"Privacidade","footer.terms":"Termos","footer.refund":"Reembolsos","footer.eula":"EULA","footer.legal":"© 2026 Perfect Paradox Ltd (NI739317)"}
-  };
-  var sel=document.getElementById('lang');
-  function setLang(l){
-    if(!I18N[l]) l='en';
-    var d=I18N[l];
-    document.querySelectorAll('[data-i18n]').forEach(function(el){
-      var k=el.getAttribute('data-i18n'); if(d[k]!=null) el.innerHTML=d[k];
-    });
-    document.documentElement.lang=l;
-    try{localStorage.setItem('oflang',l);}catch(e){}
-    if(sel) sel.value=l;
+(function () {
+  var I18N = window.I18N || {};
+  var LANGS = I18N.__langs || { en: "English" };
+  var SUPPORTED = Object.keys(LANGS);
+  var DEFAULT = "en";
+  var STORE_KEY = "orthoframe_lang";
+
+  function normalize(code) {
+    if (!code) return null;
+    code = code.trim();
+    if (SUPPORTED.indexOf(code) !== -1) return code;          // match exacto (incl. zh-Hans)
+    var lower = code.toLowerCase();
+    if (lower.indexOf("zh") === 0) return SUPPORTED.indexOf("zh-Hans") !== -1 ? "zh-Hans" : null;
+    var base = lower.split("-")[0];                            // "es-419" -> "es"
+    for (var i = 0; i < SUPPORTED.length; i++) {
+      if (SUPPORTED[i].toLowerCase() === base || SUPPORTED[i].toLowerCase().split("-")[0] === base) {
+        return SUPPORTED[i];
+      }
+    }
+    return null;
   }
-  var saved=null; try{saved=localStorage.getItem('oflang');}catch(e){}
-  var initial=saved||(navigator.language||'en').slice(0,2).toLowerCase();
-  if(!I18N[initial]) initial='en';
-  if(sel) sel.addEventListener('change',function(){setLang(sel.value);});
-  setLang(initial);
+
+  function detect() {
+    try {
+      var qs = new URLSearchParams(window.location.search).get("lang");
+      var fromUrl = normalize(qs);
+      if (fromUrl) return fromUrl;
+    } catch (e) {}
+    try {
+      var saved = normalize(localStorage.getItem(STORE_KEY));
+      if (saved) return saved;
+    } catch (e) {}
+    var navs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language];
+    for (var i = 0; i < navs.length; i++) {
+      var n = normalize(navs[i]);
+      if (n) return n;
+    }
+    return DEFAULT;
+  }
+
+  function apply(lang) {
+    var dict = I18N[lang] || I18N[DEFAULT] || {};
+    var fallback = I18N[DEFAULT] || {};
+    function val(key) { return (dict[key] != null) ? dict[key] : fallback[key]; }
+
+    var nodes = document.querySelectorAll("[data-i18n]");
+    for (var i = 0; i < nodes.length; i++) {
+      var k = nodes[i].getAttribute("data-i18n");
+      var v = val(k);
+      if (v != null) nodes[i].innerHTML = v;
+    }
+    var attrNodes = document.querySelectorAll("[data-i18n-attr]");
+    for (var j = 0; j < attrNodes.length; j++) {
+      var spec = attrNodes[j].getAttribute("data-i18n-attr");
+      var pairs = spec.split(",");
+      for (var p = 0; p < pairs.length; p++) {
+        var parts = pairs[p].split(":");
+        if (parts.length === 2) {
+          var av = val(parts[1].trim());
+          if (av != null) attrNodes[j].setAttribute(parts[0].trim(), av.replace(/&amp;/g, "&"));
+        }
+      }
+    }
+    document.documentElement.setAttribute("lang", lang);
+  }
+
+  function persist(lang) {
+    try { localStorage.setItem(STORE_KEY, lang); } catch (e) {}
+  }
+
+  function syncUrl(lang) {
+    try {
+      var url = new URL(window.location.href);
+      url.searchParams.set("lang", lang);
+      history.replaceState(null, "", url.toString());
+    } catch (e) {}
+  }
+
+  function buildSelector(current) {
+    var sel = document.getElementById("langSelect");
+    if (!sel) return;
+    sel.innerHTML = "";
+    for (var i = 0; i < SUPPORTED.length; i++) {
+      var code = SUPPORTED[i];
+      var opt = document.createElement("option");
+      opt.value = code;
+      opt.textContent = LANGS[code];
+      if (code === current) opt.selected = true;
+      sel.appendChild(opt);
+    }
+    sel.addEventListener("change", function () {
+      var lang = sel.value;
+      apply(lang);
+      persist(lang);
+      syncUrl(lang);
+    });
+  }
+
+  function init() {
+    var lang = detect();
+    apply(lang);
+    persist(lang);
+    syncUrl(lang);
+    buildSelector(lang);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
 })();
 </script>
 
@@ -581,6 +692,51 @@
       window.location.href = 'mailto:info@perfectparadox.co.uk?subject=Buy%20OrthoFrame';
     }
   }
+</script>
+
+<!-- feedback: form → Cloudflare Worker (/feedback) → Resend → feedback@perfectparadox.co.uk -->
+<script>
+(function(){
+  var FEEDBACK_URL = 'https://pp-license-fulfillment.diegochavesta.workers.dev/feedback';
+  var APP = 'orthoframe';
+  var form = document.getElementById('fbForm');
+  if (!form) return;
+  var types = document.getElementById('fbTypes');
+  var chosen = 'idea';
+  types.addEventListener('click', function(e){
+    var chip = e.target.closest('.fb-chip'); if (!chip) return;
+    chosen = chip.getAttribute('data-val');
+    var all = types.querySelectorAll('.fb-chip');
+    for (var i=0;i<all.length;i++) all[i].classList.toggle('on', all[i]===chip);
+  });
+  var msgEl = document.getElementById('fbMsg');
+  var emailEl = document.getElementById('fbEmail');
+  var hpEl = document.getElementById('fbHp');
+  var btn = document.getElementById('fbSend');
+  var out = document.getElementById('fbResult');
+  function dict(){ try { var L=document.documentElement.getAttribute('lang')||'en'; return (window.I18N&&window.I18N[L])||{}; } catch(e){ return {}; } }
+  function t(k,fb){ var d=dict(); return d[k]!=null?d[k]:fb; }
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var message = (msgEl.value||'').trim();
+    out.className = 'fb-msg';
+    if (message.length < 3){ out.className='fb-msg err'; out.textContent = t('fb.result.empty','Please write a short message first.'); msgEl.focus(); return; }
+    btn.disabled = true; var label = btn.innerHTML; btn.innerHTML = t('fb.sending','Sending…');
+    fetch(FEEDBACK_URL, {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ app:APP, type:chosen, message:message, email:(emailEl.value||'').trim(), hp:(hpEl.value||'') })
+    }).then(function(r){ return r.ok ? r.json() : Promise.reject(r); })
+    .then(function(d){
+      if (d && d.ok){ out.className='fb-msg ok'; out.textContent = t('fb.result.ok','Thank you — your feedback is on its way to the team.'); form.reset(); chosen='idea'; var all=types.querySelectorAll('.fb-chip'); for(var i=0;i<all.length;i++) all[i].classList.toggle('on', all[i].getAttribute('data-val')==='idea'); }
+      else throw new Error('bad');
+    })
+    .catch(function(){
+      out.className='fb-msg err';
+      out.innerHTML = t('fb.result.err','Could not send right now. You can email us at ') + '<a href="mailto:feedback@perfectparadox.co.uk?subject=OrthoFrame%20feedback" style="color:var(--teal-deep)">feedback@perfectparadox.co.uk</a>.';
+    })
+    .finally(function(){ btn.disabled=false; btn.innerHTML=label; });
+  });
+})();
 </script>
 
 </body>
