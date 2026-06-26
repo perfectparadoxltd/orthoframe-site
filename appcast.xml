@@ -9,7 +9,7 @@
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://orthoframe.perfectparadox.co.uk/OrthoFrame-1.0.0.zip" length="8696455" type="application/octet-stream"/>
+            <enclosure url="https://orthoframe.perfectparadox.co.uk/OrthoFrame-1.0.0.zip" length="8699325" type="application/octet-stream" sparkle:edSignature="oxJUaqrW9y19mHac+0ZwlvvxCr8ZKIUZlFAFvmBKxTbt6nW6TKGoykJeBGdWJS9eA6AfjWJ9imDd5YYfZOdrDA=="/>
         </item>
     </channel>
 </rss>
