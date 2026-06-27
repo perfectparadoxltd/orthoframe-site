@@ -25,6 +25,18 @@ window.I18N = {
 
   /* ===================================================================== EN */
   en: {
+    /* more from Perfect Paradox (carrusel) */
+    "more.label": "// More from Perfect Paradox",
+    "more.curtain": "Auto do-not-disturb on share",
+    "more.notebound": "Markdown to Apple Notes",
+    "more.everyfile": "Instant file search",
+    "more.evergreen": "Every app up to date",
+    "more.screenshelf": "Search inside screenshots",
+    "more.slimr": "Compress, OCR & PDF tools",
+    "more.castly": "Transform text as you paste",
+    "more.lightcap": "10-second screen GIFs",
+    "more.scrubd": "Clean metadata before you share",
+    "more.ag3nt": "Your AI team, on your Mac",
     "meta.title": "OrthoFrame — Clinical orthodontic photography, sorted by itself",
     "meta.description": "Organise your clinic's orthodontic photography on your Mac — AI sorts each photo into ABO record sheets, 100% on-device. One-time, zero telemetry. macOS 14+.",
     "og.title": "OrthoFrame — Clinical orthodontic photography, sorted by itself",
@@ -113,6 +125,18 @@ window.I18N = {
 
   /* ===================================================================== ES */
   es: {
+    /* more from Perfect Paradox (carrusel) */
+    "more.label": "// Más de Perfect Paradox",
+    "more.curtain": "No molestar automático al compartir",
+    "more.notebound": "Markdown a Apple Notes",
+    "more.everyfile": "Búsqueda de archivos al instante",
+    "more.evergreen": "Todas tus apps al día",
+    "more.screenshelf": "Busca dentro de tus capturas",
+    "more.slimr": "Comprimir, OCR y herramientas PDF",
+    "more.castly": "Transforma el texto al pegar",
+    "more.lightcap": "GIFs de pantalla de 10 segundos",
+    "more.scrubd": "Limpia metadatos antes de compartir",
+    "more.ag3nt": "Tu equipo de IA, en tu Mac",
     "meta.title": "OrthoFrame — Fotografía clínica ortodóncica, ordenada sola",
     "meta.description": "Organiza la fotografía ortodóncica de tu consulta en tu Mac — la IA clasifica cada foto en la lámina ABO, 100% en local. Pago único, cero telemetría. macOS 14+.",
     "og.title": "OrthoFrame — Fotografía clínica ortodóncica, ordenada sola",
@@ -201,6 +225,18 @@ window.I18N = {
 
   /* ===================================================================== FR */
   fr: {
+    /* more from Perfect Paradox (carrusel) */
+    "more.label": "// Plus de Perfect Paradox",
+    "more.curtain": "Ne pas déranger auto au partage",
+    "more.notebound": "Markdown vers Apple Notes",
+    "more.everyfile": "Recherche de fichiers instantanée",
+    "more.evergreen": "Toutes vos apps à jour",
+    "more.screenshelf": "Cherchez dans vos captures d'écran",
+    "more.slimr": "Compression, OCR et outils PDF",
+    "more.castly": "Transformez le texte au collage",
+    "more.lightcap": "GIFs d'écran de 10 secondes",
+    "more.scrubd": "Nettoyez les métadonnées avant de partager",
+    "more.ag3nt": "Votre équipe d'IA, sur votre Mac",
     "meta.title": "OrthoFrame — Photographie clinique orthodontique, classée toute seule",
     "meta.description": "Organisez la photographie orthodontique de votre cabinet sur votre Mac — l'IA classe chaque photo dans la planche ABO, 100% en local. Achat unique, zéro télémétrie. macOS 14+.",
     "og.title": "OrthoFrame — Photographie clinique orthodontique, classée toute seule",
@@ -289,6 +325,18 @@ window.I18N = {
 
   /* ===================================================================== DE */
   de: {
+    /* more from Perfect Paradox (carrusel) */
+    "more.label": "// Mehr von Perfect Paradox",
+    "more.curtain": "Auto-Nicht-stören beim Teilen",
+    "more.notebound": "Markdown zu Apple Notes",
+    "more.everyfile": "Sofortige Dateisuche",
+    "more.evergreen": "Alle Apps aktuell",
+    "more.screenshelf": "Suche in Screenshots",
+    "more.slimr": "Komprimieren, OCR und PDF-Tools",
+    "more.castly": "Text beim Einfügen umwandeln",
+    "more.lightcap": "10-Sekunden-Bildschirm-GIFs",
+    "more.scrubd": "Metadaten vor dem Teilen bereinigen",
+    "more.ag3nt": "Dein KI-Team auf dem Mac",
     "meta.title": "OrthoFrame — Klinische kieferorthopädische Fotografie, von selbst geordnet",
     "meta.description": "Organisieren Sie die kieferorthopädische Fotografie Ihrer Praxis auf Ihrem Mac — die KI sortiert jedes Foto in die ABO-Tafel, 100% lokal. Einmalkauf, null Telemetrie. macOS 14+.",
     "og.title": "OrthoFrame — Klinische kieferorthopädische Fotografie, von selbst geordnet",
@@ -377,6 +425,18 @@ window.I18N = {
 
   /* ===================================================================== IT */
   it: {
+    /* more from Perfect Paradox (carrusel) */
+    "more.label": "// Altro da Perfect Paradox",
+    "more.curtain": "Non disturbare automatico alla condivisione",
+    "more.notebound": "Markdown verso Apple Notes",
+    "more.everyfile": "Ricerca file istantanea",
+    "more.evergreen": "Tutte le app aggiornate",
+    "more.screenshelf": "Cerca dentro gli screenshot",
+    "more.slimr": "Comprimi, OCR e strumenti PDF",
+    "more.castly": "Trasforma il testo mentre incolli",
+    "more.lightcap": "GIF dello schermo di 10 secondi",
+    "more.scrubd": "Pulisci i metadati prima di condividere",
+    "more.ag3nt": "Il tuo team di IA sul Mac",
     "meta.title": "OrthoFrame — Fotografia clinica ortodontica, ordinata da sola",
     "meta.description": "Organizza la fotografia ortodontica del tuo studio sul tuo Mac — l'IA ordina ogni foto nella tavola ABO, 100% in locale. Acquisto unico, zero telemetria. macOS 14+.",
     "og.title": "OrthoFrame — Fotografia clinica ortodontica, ordinata da sola",
@@ -465,6 +525,18 @@ window.I18N = {
 
   /* ===================================================================== PT */
   pt: {
+    /* more from Perfect Paradox (carrusel) */
+    "more.label": "// Mais da Perfect Paradox",
+    "more.curtain": "Não perturbe automático ao compartilhar",
+    "more.notebound": "Markdown para o Apple Notes",
+    "more.everyfile": "Busca de arquivos instantânea",
+    "more.evergreen": "Todos os apps atualizados",
+    "more.screenshelf": "Busque dentro das capturas de tela",
+    "more.slimr": "Comprimir, OCR e ferramentas PDF",
+    "more.castly": "Transforme o texto ao colar",
+    "more.lightcap": "GIFs de tela de 10 segundos",
+    "more.scrubd": "Limpe metadados antes de compartilhar",
+    "more.ag3nt": "A sua equipa de IA no Mac",
     "meta.title": "OrthoFrame — Fotografia clínica ortodôntica, organizada sozinha",
     "meta.description": "Organize a fotografia ortodôntica da sua consulta no seu Mac — a IA classifica cada foto na folha ABO, 100% local. Pagamento único, zero telemetria. macOS 14+.",
     "og.title": "OrthoFrame — Fotografia clínica ortodôntica, organizada sozinha",
@@ -553,6 +625,18 @@ window.I18N = {
 
   /* ===================================================================== JA */
   ja: {
+    /* more from Perfect Paradox (carrusel) */
+    "more.label": "// Perfect Paradoxの他の製品",
+    "more.curtain": "共有時に自動で集中モード",
+    "more.notebound": "MarkdownをApple Notesへ",
+    "more.everyfile": "瞬時のファイル検索",
+    "more.evergreen": "すべてのアプリを最新に",
+    "more.screenshelf": "スクショの中まで検索",
+    "more.slimr": "圧縮・OCR・PDF ツール",
+    "more.castly": "貼り付け時にテキストを変換",
+    "more.lightcap": "10 秒の画面 GIF",
+    "more.scrubd": "共有前にメタデータを消去",
+    "more.ag3nt": "Mac で動く AI チーム",
     "meta.title": "OrthoFrame — 矯正歯科の臨床写真を、自動で整理",
     "meta.description": "クリニックの矯正臨床写真をMac上で整理 — AIが各写真をABO記録シートに自動分類、100%デバイス内処理。買い切り・テレメトリなし。macOS 14以降。",
     "og.title": "OrthoFrame — 矯正歯科の臨床写真を、自動で整理",
@@ -641,6 +725,18 @@ window.I18N = {
 
   /* ================================================================ zh-Hans */
   "zh-Hans": {
+    /* more from Perfect Paradox (carrusel) */
+    "more.label": "// Perfect Paradox 的更多产品",
+    "more.curtain": "共享时自动开启勿扰",
+    "more.notebound": "Markdown 转 Apple Notes",
+    "more.everyfile": "即时文件搜索",
+    "more.evergreen": "所有应用保持最新",
+    "more.screenshelf": "在截图中搜索",
+    "more.slimr": "压缩、OCR 与 PDF 工具",
+    "more.castly": "粘贴时转换文本",
+    "more.lightcap": "10 秒屏幕 GIF",
+    "more.scrubd": "共享前清除元数据",
+    "more.ag3nt": "你 Mac 上的 AI 团队",
     "meta.title": "OrthoFrame — 正畸临床照片，自动归位",
     "meta.description": "在你的 Mac 上整理诊所的正畸临床照片 — AI 把每张照片自动归入 ABO 记录表，100% 本地处理。一次买断、零遥测。macOS 14+。",
     "og.title": "OrthoFrame — 正畸临床照片，自动归位",

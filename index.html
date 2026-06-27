@@ -218,6 +218,20 @@
     .cards{grid-template-columns:1fr}.split{grid-template-columns:1fr;gap:28px}.split.alt{direction:ltr}
     .steps{grid-template-columns:1fr}.tiers{grid-template-columns:1fr}.grid4{grid-template-columns:repeat(2,1fr)}
   }
+/* more from Perfect Paradox (carrusel, tema claro) */
+.morepp{background:var(--surface);border-top:1px solid var(--hair);margin-top:88px}
+.morepp .wrap{padding-top:72px;padding-bottom:80px}
+.morepp .more-h{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:28px}
+.ppcar{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.pptrack{display:flex;gap:16px;width:max-content;animation:ppmarq 55s linear infinite}
+.morepp .ppcar:hover .pptrack{animation-play-state:paused}
+@keyframes ppmarq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.ppc{flex:0 0 196px;display:flex;flex-direction:column;align-items:center;gap:12px;padding:26px 16px;border:1px solid var(--hair);border-radius:16px;background:#fff;text-decoration:none;text-align:center;transition:transform .15s,box-shadow .15s}
+.ppc:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(14,94,87,.12)}
+.ppc img{width:64px;height:64px;border-radius:15px}
+.ppc .nm{font-size:14px;font-weight:600;color:var(--ink)}
+.ppc .ds{font-size:12.5px;color:var(--muted);line-height:1.4}
+@media(max-width:760px){.ppc{flex-basis:160px}}
 </style>
 </head>
 <body>
@@ -467,6 +481,12 @@
     <div class="fb-msg" id="fbResult" role="status" aria-live="polite"></div>
   </form>
 </div></div></section>
+
+
+<section class="morepp"><div class="wrap">
+  <div class="more-h" data-i18n="more.label">// More from Perfect Paradox</div>
+  <div class="ppcar"><div class="pptrack"><a class="ppc" href="https://curtain.perfectparadox.co.uk"><img src="icons/curtain.png" alt="Curtain" width="64" height="64"><div class="nm">Curtain</div><div class="ds" data-i18n="more.curtain">Auto do-not-disturb on share</div></a><a class="ppc" href="https://notebound.perfectparadox.co.uk"><img src="icons/notebound.png" alt="Notebound" width="64" height="64"><div class="nm">Notebound</div><div class="ds" data-i18n="more.notebound">Markdown to Apple Notes</div></a><a class="ppc" href="https://everyfile.perfectparadox.co.uk"><img src="icons/everyfile.png" alt="Everyfile" width="64" height="64"><div class="nm">Everyfile</div><div class="ds" data-i18n="more.everyfile">Instant file search</div></a><a class="ppc" href="https://evergreen.perfectparadox.co.uk"><img src="icons/evergreen.png" alt="Evergreen" width="64" height="64"><div class="nm">Evergreen</div><div class="ds" data-i18n="more.evergreen">Every app up to date</div></a><a class="ppc" href="https://screenshelf.perfectparadox.co.uk"><img src="icons/screenshelf.png" alt="Screenshelf" width="64" height="64"><div class="nm">Screenshelf</div><div class="ds" data-i18n="more.screenshelf">Search inside screenshots</div></a><a class="ppc" href="https://slimr.perfectparadox.co.uk"><img src="icons/slimr.png" alt="Slimr" width="64" height="64"><div class="nm">Slimr</div><div class="ds" data-i18n="more.slimr">Compress, OCR & PDF tools</div></a><a class="ppc" href="https://castly.perfectparadox.co.uk"><img src="icons/castly.png" alt="Castly" width="64" height="64"><div class="nm">Castly</div><div class="ds" data-i18n="more.castly">Transform text as you paste</div></a><a class="ppc" href="https://lightcap.perfectparadox.co.uk"><img src="icons/lightcap.png" alt="Lightcap" width="64" height="64"><div class="nm">Lightcap</div><div class="ds" data-i18n="more.lightcap">10-second screen GIFs</div></a><a class="ppc" href="https://scrubd.perfectparadox.co.uk"><img src="icons/scrubd.png" alt="Scrubd" width="64" height="64"><div class="nm">Scrubd</div><div class="ds" data-i18n="more.scrubd">Clean metadata before you share</div></a><a class="ppc" href="https://ag3nt.perfectparadox.co.uk"><img src="icons/ag3nt.png" alt="AG3NT" width="64" height="64"><div class="nm">AG3NT</div><div class="ds" data-i18n="more.ag3nt">Your AI team, on your Mac</div></a><a class="ppc" href="https://curtain.perfectparadox.co.uk"><img src="icons/curtain.png" alt="Curtain" width="64" height="64"><div class="nm">Curtain</div><div class="ds" data-i18n="more.curtain">Auto do-not-disturb on share</div></a><a class="ppc" href="https://notebound.perfectparadox.co.uk"><img src="icons/notebound.png" alt="Notebound" width="64" height="64"><div class="nm">Notebound</div><div class="ds" data-i18n="more.notebound">Markdown to Apple Notes</div></a><a class="ppc" href="https://everyfile.perfectparadox.co.uk"><img src="icons/everyfile.png" alt="Everyfile" width="64" height="64"><div class="nm">Everyfile</div><div class="ds" data-i18n="more.everyfile">Instant file search</div></a><a class="ppc" href="https://evergreen.perfectparadox.co.uk"><img src="icons/evergreen.png" alt="Evergreen" width="64" height="64"><div class="nm">Evergreen</div><div class="ds" data-i18n="more.evergreen">Every app up to date</div></a><a class="ppc" href="https://screenshelf.perfectparadox.co.uk"><img src="icons/screenshelf.png" alt="Screenshelf" width="64" height="64"><div class="nm">Screenshelf</div><div class="ds" data-i18n="more.screenshelf">Search inside screenshots</div></a><a class="ppc" href="https://slimr.perfectparadox.co.uk"><img src="icons/slimr.png" alt="Slimr" width="64" height="64"><div class="nm">Slimr</div><div class="ds" data-i18n="more.slimr">Compress, OCR & PDF tools</div></a><a class="ppc" href="https://castly.perfectparadox.co.uk"><img src="icons/castly.png" alt="Castly" width="64" height="64"><div class="nm">Castly</div><div class="ds" data-i18n="more.castly">Transform text as you paste</div></a><a class="ppc" href="https://lightcap.perfectparadox.co.uk"><img src="icons/lightcap.png" alt="Lightcap" width="64" height="64"><div class="nm">Lightcap</div><div class="ds" data-i18n="more.lightcap">10-second screen GIFs</div></a><a class="ppc" href="https://scrubd.perfectparadox.co.uk"><img src="icons/scrubd.png" alt="Scrubd" width="64" height="64"><div class="nm">Scrubd</div><div class="ds" data-i18n="more.scrubd">Clean metadata before you share</div></a><a class="ppc" href="https://ag3nt.perfectparadox.co.uk"><img src="icons/ag3nt.png" alt="AG3NT" width="64" height="64"><div class="nm">AG3NT</div><div class="ds" data-i18n="more.ag3nt">Your AI team, on your Mac</div></a></div></div>
+</div></section>
 
 <section class="cta"><div class="wrap">
   <h2 data-i18n="cta.h2">Tu archivo fotográfico, por fin bajo control</h2>
