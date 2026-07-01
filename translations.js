@@ -105,6 +105,7 @@ window.I18N = {
     "q9.q": "Can I get a refund?", "q9.a": "Yes — a 14-day money-back guarantee, no questions asked. Payments are handled by Paddle; just reply to your receipt.",
 
     "news.label": "// What's new", "news.latest": "Latest",
+    "news.101.1": "Privacy hardened: automatic update checks are now off by default, exactly as our privacy policy promises — check for updates manually from the menu whenever you choose.",
     "news.100.1": "Initial release. OrthoFrame imports your clinic photos and AI sorts each one into its ABO record sheet — frontal, profile, occlusal, lateral — 100% on your Mac. Smart crop, auto-orientation, before/after, encrypted backup and PDF export. One-time purchase, zero telemetry.",
 
     "fb.label": "// Feedback", "fb.title": "Help shape<br>OrthoFrame",
@@ -305,6 +306,7 @@ window.I18N = {
     "q9.q": "Puis-je être remboursé ?", "q9.a": "Oui — garantie satisfait ou remboursé de 14 jours, sans question. Les paiements sont gérés par Paddle ; répondez simplement à votre reçu.",
 
     "news.label": "// Nouveautés", "news.latest": "Dernière",
+    "news.101.1": "Confidentialité renforcée : la recherche automatique de mises à jour est désormais désactivée par défaut, comme le promet notre politique de confidentialité — vérifiez manuellement depuis le menu quand vous le souhaitez.",
     "news.100.1": "Version initiale. OrthoFrame importe les photos cliniques de votre cabinet et l'IA classe chacune dans sa planche ABO — face, profil, occlusal, latéral — 100% sur votre Mac. Recadrage intelligent, auto-orientation, avant/après, sauvegarde chiffrée et export PDF. Achat unique, zéro télémétrie.",
 
     "fb.label": "// Retour", "fb.title": "Aidez à façonner<br>OrthoFrame",
@@ -405,6 +407,7 @@ window.I18N = {
     "q9.q": "Kann ich eine Rückerstattung erhalten?", "q9.a": "Ja — 14 Tage Geld-zurück-Garantie, ohne Wenn und Aber. Zahlungen werden von Paddle abgewickelt; antworten Sie einfach auf Ihre Quittung.",
 
     "news.label": "// Neuigkeiten", "news.latest": "Neueste",
+    "news.101.1": "Datenschutz gestärkt: Die automatische Update-Prüfung ist jetzt standardmäßig deaktiviert — genau wie in unserer Datenschutzerklärung versprochen. Updates prüfen Sie manuell über das Menü.",
     "news.100.1": "Erstveröffentlichung. OrthoFrame importiert die klinischen Fotos Ihrer Praxis und die KI sortiert jedes in seine ABO-Tafel — frontal, Profil, okklusal, lateral — 100% auf Ihrem Mac. Intelligenter Zuschnitt, Auto-Ausrichtung, Vorher/Nachher, verschlüsseltes Backup und PDF-Export. Einmalkauf, null Telemetrie.",
 
     "fb.label": "// Feedback", "fb.title": "Gestalten Sie<br>OrthoFrame mit",
@@ -505,6 +508,7 @@ window.I18N = {
     "q9.q": "Posso chiedere un rimborso?", "q9.a": "Sì — garanzia di rimborso di 14 giorni, senza fare domande. I pagamenti sono gestiti da Paddle; basta rispondere alla tua ricevuta.",
 
     "news.label": "// Novità", "news.latest": "Ultima",
+    "news.101.1": "Privacy rafforzata: il controllo automatico degli aggiornamenti ora è disattivato per impostazione predefinita, come promette la nostra informativa — controlla manualmente dal menu quando vuoi.",
     "news.100.1": "Versione iniziale. OrthoFrame importa le foto cliniche del tuo studio e l'IA ordina ognuna nella sua tavola ABO — frontale, profilo, occlusale, laterale — 100% sul tuo Mac. Ritaglio intelligente, auto-orientamento, prima/dopo, backup cifrato ed esportazione PDF. Acquisto unico, zero telemetria.",
 
     "fb.label": "// Feedback", "fb.title": "Aiuta a plasmare<br>OrthoFrame",
@@ -605,6 +609,7 @@ window.I18N = {
     "q9.q": "Posso pedir reembolso?", "q9.a": "Sim — garantia de devolução de 14 dias, sem perguntas. Os pagamentos são geridos pela Paddle; basta responder ao seu recibo.",
 
     "news.label": "// Novidades", "news.latest": "Mais recente",
+    "news.101.1": "Privacidade reforçada: a verificação automática de atualizações agora fica desativada por padrão, exatamente como promete a nossa política de privacidade — verifique manualmente pelo menu quando quiser.",
     "news.100.1": "Lançamento inicial. O OrthoFrame importa as fotos clínicas da sua consulta e a IA classifica cada uma na sua folha ABO — frontal, perfil, oclusal, lateral — 100% no seu Mac. Recorte inteligente, auto-orientação, antes/depois, backup cifrado e exportação para PDF. Pagamento único, zero telemetria.",
 
     "fb.label": "// Feedback", "fb.title": "Ajude a moldar<br>o OrthoFrame",
@@ -705,6 +710,7 @@ window.I18N = {
     "q9.q": "返金できますか？", "q9.a": "はい — 14日間の返金保証、理由は問いません。支払いはPaddleが処理します。領収書に返信するだけです。",
 
     "news.label": "// 新着情報", "news.latest": "最新",
+    "news.101.1": "プライバシー強化：自動アップデート確認は、プライバシーポリシーの約束どおりデフォルトでオフになりました。メニューからいつでも手動で確認できます。",
     "news.100.1": "初回リリース。OrthoFrameはクリニックの臨床写真を取り込み、AIが各写真をABO記録シートへ分類 — 正面・側貌・咬合面・側方 — すべてMac上で。スマートトリミング、自動回転、ビフォー/アフター、暗号化バックアップ、PDF書き出し。買い切り・テレメトリなし。",
 
     "fb.label": "// フィードバック", "fb.title": "OrthoFrameを<br>一緒に形に",
@@ -805,6 +811,7 @@ window.I18N = {
     "q9.q": "可以退款吗？", "q9.a": "可以 — 14 天无理由退款保证。付款由 Paddle 处理；回复你的收据即可。",
 
     "news.label": "// 更新动态", "news.latest": "最新",
+    "news.101.1": "隐私加固：自动更新检查现已默认关闭，正如我们隐私政策所承诺的 — 您可以随时通过菜单手动检查更新。",
     "news.100.1": "首个版本。OrthoFrame 导入你诊所的临床照片，AI 把每一张归入对应的 ABO 记录表 — 正面、侧面、咬合面、侧方 — 全部在你的 Mac 上。智能裁剪、自动定向、前后对比、加密备份与 PDF 导出。一次买断、零遥测。",
 
     "fb.label": "// 反馈", "fb.title": "一起塑造<br>OrthoFrame",
